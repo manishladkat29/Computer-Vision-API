@@ -12,6 +12,8 @@ const axios = require("axios")
 const cors = require("cors");
 const {check, body ,validationResult} = require('express-validator');
 
+
+
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 
@@ -22,6 +24,7 @@ var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors());
 
 /**
  * AUTHENTICATE
