@@ -1,0 +1,29 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishladkat29/SI-Project.git"
+  },
+  "author": "Manish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishladkat29/SI-Project/issues"
+  },
+  "homepage": "https://github.com/manishladkat29/SI-Project#readme",
+  "dependencies": {
+    "@azure/cognitiveservices-computervision": "^7.1.0",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^6.0.0-rc.4",
+    "swagger-ui-express": "^4.1.5"
+  }
+}
